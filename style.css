@@ -1,1 +1,102 @@
 /*this will be my css doc*/
+/*General*/
+
+.groupRow{
+  display:flex;
+  flex-direction:row;
+  margin:0 0 0 10px;
+}
+.groupCol{
+  display:flex;
+  flex-direction:column;
+  margin:0 0 0 10px;
+}
+
+.itemFlex{
+  flex:1;
+  margin:5px;
+}
+
+
+.wrapper{
+  margin:auto;
+}
+.textGeneral{
+	margin-right:auto;
+	
+}
+
+
+/*body*/
+body{
+  background-color: rgb(#fff);
+}
+
+h2{
+  text-align:center;
+  font-size:24px;
+  color:#000;
+  font-family:Papyrus;
+}
+
+
+/*header*/
+header{
+  padding:50px;
+  margin:25px 25px 25px 25px;
+  text-align:center;
+  font-family:Papyrus;
+  font-size:20px;
+  color:#000;
+  background-image:url("images/subtlegray.jpg");
+}
+
+header p{
+  font-size:18px;
+  color:#000;
+  font-family:Papyrus;
+  text-align:center;
+  margin:10px 0 0 20px;
+}
+/*main*/
+main{
+  
+  margin:5px 5px 15px 50px;
+  padding:5px 5px 5px 5px;
+}
+
+main h1{
+   background-image:url("images/subtlegray3.jpg");
+   display:inline;
+   font-family:Lucida;
+   font-size:30px;
+   padding:1px 10px 0px 10px;
+   border-radius:10px;
+   text-align:center;
+   }
+
+main section div{
+  padding:5px 5px 5px 5px;
+  
+}
+main section1 p{
+    
+    font-size:18px;
+    color:#000;
+    margin:10px 10px 10px 10px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    background-image:url("images/subtlegray3.jpg");
+}
+
+main section2 p{
+    
+    font-size:14px;
+    color:#000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    background-image:url("images/subtlegray3.jpg");
+}
+
+
+/*footer*/
