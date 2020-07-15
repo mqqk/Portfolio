@@ -11,6 +11,7 @@
   display:flex;
   flex-direction:column;
   margin:0 0 0 10px;
+  padding:5px 0 5px 0;
 }
 
 .item{
@@ -116,6 +117,22 @@ main section2 p{
     border-top:1px solid #000;
     border-bottom:1px solid #000;
     background-image:url("images/subtlegray3.jpg");
+	padding:5px 0 5px 0;
+}
+.section3{/*section 3 "contacts and projects" style*/
+	font-size:14px;
+    color:#000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    background-image:url("images/subtlegray3.jpg");
+	padding:5px 0 5px 0;
+}
+a{
+	text-decoration:none;
+	color:#000;
 }
 
+a:hover{
+	color:#fff;
+		)
 /*footer*/

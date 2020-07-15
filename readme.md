@@ -22,25 +22,3 @@ layout
 
 
  
-
-If we are marked to code, we are not to do our community loss; 
-
-But to code, the more who share the greater wealth of knowledge; 
-
-Code’s will, I pray thee, wish another person more; 
-
-I am not covetous of praise, 
-
-Nor care I who doth feed upon my ideas. 
-
-It yearns me not if others my code they wear; 
-
-Such outward things dwell not in my desires. 
-
-But if is be a sin to covet brilliant code; 
-
-I am the most offending soul alive! 
-
- 
-
-I want to bring the creativity to the career utilizing the following. 
