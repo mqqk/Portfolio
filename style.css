@@ -3,11 +3,11 @@
 
 .groupRow{
   display:flex;
-  justify-content:space-evenly;
   flex-direction:row;
   margin:0 0 0 10px;
-  padding:0 5px 0 0;
+ 
 }
+
 .groupCol{
   display:flex;
   flex-direction:column;
@@ -15,28 +15,32 @@
   padding:5px 0 5px 0;
 }
 
-.item{
-  flex:1;
-  margin:5px;
+.item{/*styles specific elements*/
+  
+	display: flex;
+	flex:1;
+	justify-content: center;
+	flex-wrap:wrap;
+	margin-right:15px;
+	
 }
-.item2{
+.item2{/*styles specific elements*/
 	flex:2;
 	margin:5px;
 }
-.itemHalf{
-	flex:.75;
+.itemHalf{/*styles specific elements*/
+	flex:.5;
 	margin:5px;
 }
+.textSpec{/*arranging text specifically as needed or otherwise not dictated by the section*/
+	margin-left:10px;
+	font-size:24px;
+	font-family:Papyrus;
+}
 
-.wrapper{/*wrap border around element*/
-  display:inline-block;
-  height:75%;
-  width:75%;
-}
-.textGeneral{
-	margin-right:auto;
-	
-}
+
+
+
 
 
 /*body*/
@@ -59,7 +63,7 @@ h3{
 }
 
 
-/*header*/
+/*header styles*/
 header{
   padding:50px;
   margin:25px 25px 25px 25px;
@@ -77,27 +81,14 @@ header p{
   text-align:center;
   margin:10px 0 0 20px;
 }
-/*main*/
+/*main section styles*/
 main{
   
   margin:5px 50px 15px 50px;
   padding:5px 5px 5px 5px;
 }
 
-main h1{
-   background-image:url("images/subtlegray3.jpg");
-   display:inline;
-   font-family:Lucida;
-   font-size:30px;
-   padding:1px 10px 0px 10px;
-   border-radius:10px;
-   text-align:center;
-   }
 
-main section div{
-  padding:5px 5px 5px 5px;
-  
-}
 
 
 
@@ -108,19 +99,23 @@ main section div{
     border-top:1px solid #000;
     border-bottom:1px solid #000;
     background-image:url("images/subtlegray3.jpg");
-	align-items:space-around;
+	align-items:flex-start;
 	
 }
 
 
-.section2 p{/*section 2 paragraph format*/
+
+
+.section2{/*section 2 paragraph format*/
     
     font-size:14px;
     color:#000;
     border-top:1px solid #000;
     border-bottom:1px solid #000;
     background-image:url("images/subtlegray3.jpg");
+	margin:5px 0 5px 0;
 }
+
 
 .sectionOde{/*specific css for ode to code section*/
     font-size:14px;
@@ -129,7 +124,10 @@ main section div{
     border-bottom:1px solid #000;
     background-image:url("images/subtlegray3.jpg");
 	padding:5px 0 5px 0;
+	
 }
+
+
 .section3{/*section 3 "contacts and projects" style*/
 	font-size:14px;
     color:#000;
@@ -139,14 +137,17 @@ main section div{
 	padding:5px 0 5px 0;
 	margin:0 10px 0 10px;
 }
+
 a{
 	text-decoration:none;
 	color:#000;
 }
-
 a:hover{
 	color:#fff;
-		)
+}
+
+
+
 /*footer*/
 
 /*multi media*/
@@ -156,3 +157,37 @@ a:hover{
     font-size: 16px;
   }
 }
+
+/*practice styles*/
+.groupRow2{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin-top:5px;
+	margin-right:15px;
+	margin-left:15px;
+	padding:5px 5px 0 0;
+}
+.item3{
+	display: flex;
+	flex:1;
+	justify-content: center;
+	flex-wrap: wrap;
+	width:100%;
+	
+	
+}
+.vizBor{/*i need to visualize where a border is*/
+	border:1px solid #000;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.itemSpace{/*practicing spacing*/
+justify-content:space-around;
+	
+}
+
+
