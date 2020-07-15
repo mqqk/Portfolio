@@ -136,3 +136,11 @@ a:hover{
 	color:#fff;
 		)
 /*footer*/
+
+/*multi media*/
+
+@media all and (min-width: 800px) {
+  p {
+    font-size: 16px;
+  }
+}
