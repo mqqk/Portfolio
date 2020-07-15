@@ -22,7 +22,10 @@
 	flex:2;
 	margin:5px;
 }
-
+.itemHalf{
+	flex:.75;
+	margin:5px;
+}
 
 .wrapper{
   margin:auto;
@@ -92,17 +95,21 @@ main section div{
   padding:5px 5px 5px 5px;
   
 }
-main section1 p{
-    
-    font-size:18px;
+
+
+
+.secOneP{/*section 1 paragraph format*/
+	font-size:18px;
     color:#000;
     margin:10px 10px 10px 10px;
     border-top:1px solid #000;
     border-bottom:1px solid #000;
     background-image:url("images/subtlegray3.jpg");
+	
 }
 
-main section2 p{
+
+.section2 p{/*section 2 paragraph format*/
     
     font-size:14px;
     color:#000;
