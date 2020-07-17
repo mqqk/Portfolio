@@ -203,6 +203,14 @@ footer{
 	margin-left:auto;
 }
 
+form input{
+	width:200px;
+	margin:10px 0;
+}
+
+form button{
+	width:100px;
+}
 
 
 
