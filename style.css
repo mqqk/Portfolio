@@ -44,8 +44,65 @@
 
 .quarWidth{/*img quarter width*/
 	width:25%;
+	height:25%;
 }
 
+
+/*header styles*/
+header{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-left:200px;
+  width:80%;
+  height:200px;
+  text-align:center;
+  font-family:Papyrus;
+  font-size:20px;
+  color:#000;
+  background-image:url("images/subtlegray.jpg");
+}
+
+.logo{
+	text-align:left;
+	font-size:36px;
+	color:#000;
+	font-family:Papyrus;
+	margin-left:15px;
+}
+
+header nav{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	
+}
+
+header nav ul{
+	display:flex;
+	flex-direction:row;
+}
+
+header nav ul li{
+	list-style-type:none;
+	
+}
+
+header nav ul li a{
+	text-decoration:none;
+	padding:0 20px 0 20px;
+	font-family:Papyrus;
+	
+}
+
+
+header p{
+  font-size:18px;
+  color:#000;
+  font-family:Papyrus;
+  text-align:center;
+  margin-top:15px;
+}
 
 
 
@@ -55,7 +112,13 @@
 body{
   background-color: rgb(#fff);
 }
-
+h1{
+	text-align:left;
+	font-size:24px;
+	color:#000;
+	font-family:Papyrus;
+	margin-left:24px;
+}
 h2{
   text-align:center;
   font-size:24px;
@@ -71,24 +134,7 @@ h3{
 }
 
 
-/*header styles*/
-header{
-  padding:50px;
-  margin:25px 25px 25px 25px;
-  text-align:center;
-  font-family:Papyrus;
-  font-size:20px;
-  color:#000;
-  background-image:url("images/subtlegray.jpg");
-}
 
-header p{
-  font-size:18px;
-  color:#000;
-  font-family:Papyrus;
-  text-align:center;
-  margin:10px 0 0 20px;
-}
 /*main section styles*/
 main{
   
@@ -97,11 +143,14 @@ main{
 }
 
 
-
-
-
-.secOneP{/*section 1 paragraph format*/
+li{
+	font-family:papyrus;
 	font-size:18px;
+}
+
+
+section{/*section 1 paragraph format*/
+	font-size:16px;
     color:#000;
     margin:10px 10px 10px 10px;
     border-top:1px solid #000;
@@ -109,41 +158,6 @@ main{
     background-image:url("images/subtlegray3.jpg");
 	align-items:flex-start;
 	
-}
-
-
-
-
-.section2{/*section 2 paragraph format*/
-    
-    font-size:14px;
-    color:#000;
-    border-top:1px solid #000;
-    border-bottom:1px solid #000;
-    background-image:url("images/subtlegray3.jpg");
-	margin:5px 0 5px 0;
-}
-
-
-.sectionOde{/*specific css for ode to code section*/
-    font-size:14px;
-    color:#000;
-    border-top:1px solid #000;
-    border-bottom:1px solid #000;
-    background-image:url("images/subtlegray3.jpg");
-	padding:5px 0 5px 0;
-	
-}
-
-
-.section3{/*section 3 "contacts and projects" style*/
-	font-size:14px;
-    color:#000;
-    border-top:1px solid #000;
-    border-bottom:1px solid #000;
-    background-image:url("images/subtlegray3.jpg");
-	padding:5px 0 5px 0;
-	margin:0 10px 0 10px;
 }
 
 a{
@@ -161,9 +175,7 @@ a:hover{
 /*multi media*/
 
 @media all and (min-width: 800px) {
-  p {
-    font-size: 16px;
-  }
+  
 }
 
 /*practice styles*/
