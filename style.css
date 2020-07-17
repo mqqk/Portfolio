@@ -4,6 +4,7 @@
 .groupRow{
   display:flex;
   flex-direction:row;
+  justify-content:space-around;
   margin:0 0 0 10px;
  
 }
@@ -34,28 +35,34 @@
 }
 .textSpec{/*arranging text specifically as needed or otherwise not dictated by the section*/
 	margin-left:10px;
-	font-size:24px;
+	font-size:10px;
 	font-family:Papyrus;
 }
 
 .halfWidth{/*images half width*/
 	width:50%;
+	height:50%;
 }
 
 .quarWidth{/*img quarter width*/
 	width:25%;
 	height:25%;
 }
+.vizBor{/*i need to visualize where a border is*/
+	border:1px solid #000;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
 
 
 /*header styles*/
 header{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  margin-left:200px;
-  width:80%;
-  height:200px;
+
+  margin-left:20px;
+ 
+  height:150px;
   text-align:center;
   font-family:Papyrus;
   font-size:20px;
@@ -111,6 +118,8 @@ header p{
 /*body*/
 body{
   background-color: rgb(#fff);
+  width:80%;
+  
 }
 h1{
 	text-align:left;
@@ -138,7 +147,7 @@ h3{
 /*main section styles*/
 main{
   
-  margin:5px 50px 15px 50px;
+  margin:0 15px;
   padding:5px 5px 5px 5px;
 }
 
@@ -151,6 +160,7 @@ li{
 
 section{/*section 1 paragraph format*/
 	font-size:16px;
+	font-family:Papyrus;
     color:#000;
     margin:10px 10px 10px 10px;
     border-top:1px solid #000;
@@ -171,46 +181,29 @@ a:hover{
 
 
 /*footer*/
-
+footer{
+	background-image:url("images/subtlegray.jpg");
+}
 /*multi media*/
 
 @media all and (min-width: 800px) {
+	.textSpec{
+		font-size:24px;
+		}
   
 }
 
-/*practice styles*/
-.groupRow2{
+/*forms*/
+
+.formSize{
+	width:50%;
+	height:300px;
 	display:flex;
-	flex-direction:row;
-	width:80%;
-	margin-top:5px;
-	margin-right:15px;
-	margin-left:15px;
-	padding:5px 5px 0 0;
-}
-.item3{
-	display: flex;
-	flex:1;
-	justify-content: center;
-	flex-wrap: wrap;
-	width:250px;
-	
-	
-}
-.vizBor{/*i need to visualize where a border is*/
-	border:1px solid #000;
-	padding-left:10px;
-	padding-right:10px;
-	margin-top:5px;
-	margin-bottom:5px;
-}
-
-.itemSpace{/*practicing spacing*/
-justify-content:space-around;
-	
+	justify-content:flex-start
+	margin-left:auto;
 }
 
 
-.two_third{
-	width:500px;
-}
+
+
+
