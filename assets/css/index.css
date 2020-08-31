@@ -1,16 +1,87 @@
 body{
 	width:100%;
+	background-color: rgb(233, 229, 236);
 }
 
 h1{
-	font-size:28px;
+	font-size:26px;
+	padding-left:.25em;
 }
 
 header{
-	font-size:20px;
+	background-image:url(../images/header.jpg);
+	width:100%;
+}
+
+header p{
+	
+	text-align:center;
+}
+
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
 }
 
 header li{
 	list-style-position: none;
-	font-size:18px;
+	font-size:16px;
+	float:left;
 }
+
+header li a{
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+/* main */
+
+.about img{
+	width: 100%;
+}
+
+h2{
+	font-size:24px;
+	text-align-last:center;	
+}
+
+h3{
+	font-size:20px;
+	text-align:center;
+}
+
+.about p{
+	padding-left:.25em;
+	padding-right:.25em;
+}
+
+#passion img{
+	width:100%;
+}
+
+#passion p{
+	padding:.25em .5em;
+	font-size:16px;
+}
+
+#projects img{
+	width:100%;
+}
+
+#projects p{
+	padding:.25em .5em;
+	font-size:16px;
+}
+
+#contact{
+	padding:.25em .5em;
+	font-size:16px;
+}
+
